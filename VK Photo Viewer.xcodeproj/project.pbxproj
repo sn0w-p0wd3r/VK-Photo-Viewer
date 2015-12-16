@@ -9,23 +9,66 @@
 /* Begin PBXBuildFile section */
 		B5021A8C1C1DF6D100BF3141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5021A8B1C1DF6D100BF3141 /* main.m */; };
 		B5021A8F1C1DF6D100BF3141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5021A8E1C1DF6D100BF3141 /* AppDelegate.m */; };
-		B5021A921C1DF6D100BF3141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5021A911C1DF6D100BF3141 /* ViewController.m */; };
 		B5021A951C1DF6D100BF3141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5021A931C1DF6D100BF3141 /* Main.storyboard */; };
 		B5021A971C1DF6D100BF3141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5021A961C1DF6D100BF3141 /* Assets.xcassets */; };
 		B5021A9A1C1DF6D100BF3141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5021A981C1DF6D100BF3141 /* LaunchScreen.storyboard */; };
+		B5021AAF1C1DFF4D00BF3141 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5021AAE1C1DFF4D00BF3141 /* LoginViewController.m */; };
+		B5021ABC1C1E05E300BF3141 /* libVKSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5021AB71C1E05C500BF3141 /* libVKSdk.a */; };
+		B5021ABE1C1E167F00BF3141 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5021ABD1C1E167F00BF3141 /* SafariServices.framework */; };
+		B5021AC11C1E1BE300BF3141 /* AlbumsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5021AC01C1E1BE300BF3141 /* AlbumsTableViewController.m */; };
+		B5021AC71C1F73B900BF3141 /* VKPhotoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5021AC61C1F73B900BF3141 /* VKPhotoHelper.m */; };
+		B5021ACA1C20A7B300BF3141 /* FilesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5021AC91C20A7B300BF3141 /* FilesTableViewController.m */; };
+		B5021ACD1C20CCEA00BF3141 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5021ACC1C20CCEA00BF3141 /* PhotoViewController.m */; };
+		B584B5991C220A5F004FB68C /* ImageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B584B5981C220A5F004FB68C /* ImageTableViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5021AB61C1E05C500BF3141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5021AB01C1E05C400BF3141 /* VK-ios-sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F3C7542D182133CC00964716;
+			remoteInfo = VKSdk;
+		};
+		B5021AB81C1E05C500BF3141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5021AB01C1E05C400BF3141 /* VK-ios-sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F3BACC401865905B003158DA;
+			remoteInfo = VKSdkResources;
+		};
+		B5021ABA1C1E05C500BF3141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5021AB01C1E05C400BF3141 /* VK-ios-sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F34670311B8B7C5A003EF74B;
+			remoteInfo = VKSdkFramework;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B5021A871C1DF6D100BF3141 /* VK Photo Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK Photo Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5021A8B1C1DF6D100BF3141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5021A8D1C1DF6D100BF3141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5021A8E1C1DF6D100BF3141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B5021A901C1DF6D100BF3141 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B5021A911C1DF6D100BF3141 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B5021A941C1DF6D100BF3141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5021A961C1DF6D100BF3141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5021A991C1DF6D100BF3141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5021A9B1C1DF6D100BF3141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5021AAD1C1DFF4D00BF3141 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B5021AAE1C1DFF4D00BF3141 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B5021AB01C1E05C400BF3141 /* VK-ios-sdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "VK-ios-sdk.xcodeproj"; path = "vk-ios-sdk-master/VK-ios-sdk.xcodeproj"; sourceTree = "<group>"; };
+		B5021ABD1C1E167F00BF3141 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		B5021ABF1C1E1BE300BF3141 /* AlbumsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumsTableViewController.h; sourceTree = "<group>"; };
+		B5021AC01C1E1BE300BF3141 /* AlbumsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumsTableViewController.m; sourceTree = "<group>"; };
+		B5021AC51C1F73B900BF3141 /* VKPhotoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKPhotoHelper.h; sourceTree = "<group>"; };
+		B5021AC61C1F73B900BF3141 /* VKPhotoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKPhotoHelper.m; sourceTree = "<group>"; };
+		B5021AC81C20A7B300BF3141 /* FilesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilesTableViewController.h; sourceTree = "<group>"; };
+		B5021AC91C20A7B300BF3141 /* FilesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilesTableViewController.m; sourceTree = "<group>"; };
+		B5021ACB1C20CCEA00BF3141 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		B5021ACC1C20CCEA00BF3141 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		B584B5971C220A5F004FB68C /* ImageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewController.h; sourceTree = "<group>"; };
+		B584B5981C220A5F004FB68C /* ImageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5021ABE1C1E167F00BF3141 /* SafariServices.framework in Frameworks */,
+				B5021ABC1C1E05E300BF3141 /* libVKSdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +87,8 @@
 		B5021A7E1C1DF6D100BF3141 = {
 			isa = PBXGroup;
 			children = (
+				B5021ABD1C1E167F00BF3141 /* SafariServices.framework */,
+				B5021AB01C1E05C400BF3141 /* VK-ios-sdk.xcodeproj */,
 				B5021A891C1DF6D100BF3141 /* VK Photo Viewer */,
 				B5021A881C1DF6D100BF3141 /* Products */,
 			);
@@ -58,15 +105,23 @@
 		B5021A891C1DF6D100BF3141 /* VK Photo Viewer */ = {
 			isa = PBXGroup;
 			children = (
-				B5021A8D1C1DF6D100BF3141 /* AppDelegate.h */,
-				B5021A8E1C1DF6D100BF3141 /* AppDelegate.m */,
-				B5021A901C1DF6D100BF3141 /* ViewController.h */,
-				B5021A911C1DF6D100BF3141 /* ViewController.m */,
 				B5021A931C1DF6D100BF3141 /* Main.storyboard */,
 				B5021A961C1DF6D100BF3141 /* Assets.xcassets */,
 				B5021A981C1DF6D100BF3141 /* LaunchScreen.storyboard */,
 				B5021A9B1C1DF6D100BF3141 /* Info.plist */,
 				B5021A8A1C1DF6D100BF3141 /* Supporting Files */,
+				B5021AAD1C1DFF4D00BF3141 /* LoginViewController.h */,
+				B5021AAE1C1DFF4D00BF3141 /* LoginViewController.m */,
+				B584B5971C220A5F004FB68C /* ImageTableViewController.h */,
+				B584B5981C220A5F004FB68C /* ImageTableViewController.m */,
+				B5021ABF1C1E1BE300BF3141 /* AlbumsTableViewController.h */,
+				B5021AC01C1E1BE300BF3141 /* AlbumsTableViewController.m */,
+				B5021AC81C20A7B300BF3141 /* FilesTableViewController.h */,
+				B5021AC91C20A7B300BF3141 /* FilesTableViewController.m */,
+				B5021ACB1C20CCEA00BF3141 /* PhotoViewController.h */,
+				B5021ACC1C20CCEA00BF3141 /* PhotoViewController.m */,
+				B5021AC51C1F73B900BF3141 /* VKPhotoHelper.h */,
+				B5021AC61C1F73B900BF3141 /* VKPhotoHelper.m */,
 			);
 			path = "VK Photo Viewer";
 			sourceTree = "<group>";
@@ -74,9 +129,21 @@
 		B5021A8A1C1DF6D100BF3141 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5021A8D1C1DF6D100BF3141 /* AppDelegate.h */,
+				B5021A8E1C1DF6D100BF3141 /* AppDelegate.m */,
 				B5021A8B1C1DF6D100BF3141 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5021AB11C1E05C400BF3141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5021AB71C1E05C500BF3141 /* libVKSdk.a */,
+				B5021AB91C1E05C500BF3141 /* VKSdkResources.bundle */,
+				B5021ABB1C1E05C500BF3141 /* VKSdkFramework.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,12 +192,42 @@
 			mainGroup = B5021A7E1C1DF6D100BF3141;
 			productRefGroup = B5021A881C1DF6D100BF3141 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B5021AB11C1E05C400BF3141 /* Products */;
+					ProjectRef = B5021AB01C1E05C400BF3141 /* VK-ios-sdk.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B5021A861C1DF6D100BF3141 /* VK Photo Viewer */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B5021AB71C1E05C500BF3141 /* libVKSdk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVKSdk.a;
+			remoteRef = B5021AB61C1E05C500BF3141 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B5021AB91C1E05C500BF3141 /* VKSdkResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VKSdkResources.bundle;
+			remoteRef = B5021AB81C1E05C500BF3141 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B5021ABB1C1E05C500BF3141 /* VKSdkFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VKSdkFramework.framework;
+			remoteRef = B5021ABA1C1E05C500BF3141 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B5021A851C1DF6D100BF3141 /* Resources */ = {
@@ -150,9 +247,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5021A921C1DF6D100BF3141 /* ViewController.m in Sources */,
 				B5021A8F1C1DF6D100BF3141 /* AppDelegate.m in Sources */,
+				B5021ACD1C20CCEA00BF3141 /* PhotoViewController.m in Sources */,
+				B5021ACA1C20A7B300BF3141 /* FilesTableViewController.m in Sources */,
+				B5021AC11C1E1BE300BF3141 /* AlbumsTableViewController.m in Sources */,
 				B5021A8C1C1DF6D100BF3141 /* main.m in Sources */,
+				B5021AAF1C1DFF4D00BF3141 /* LoginViewController.m in Sources */,
+				B5021AC71C1F73B900BF3141 /* VKPhotoHelper.m in Sources */,
+				B584B5991C220A5F004FB68C /* ImageTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "VK Photo Viewer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.selfip.xrayman.VK-Photo-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "VK Photo Viewer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.selfip.xrayman.VK-Photo-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +403,7 @@
 				B5021AA01C1DF6D100BF3141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
