@@ -33,7 +33,9 @@
                     NSError *fileManagerError;
                     
                     [fileManager removeItemAtPath:localFile error:NULL];
-                    [fileManager copyItemAtPath:[location path] toPath:localFile error:&fileManagerError];
+                    if (location) {
+                        [fileManager copyItemAtPath:[location path] toPath:localFile error:&fileManagerError];
+                    }
 
                     dispatch_async(dispatch_get_main_queue(), ^(){
                         handler(NO, localFile);

@@ -17,10 +17,20 @@
 
 @implementation FilesTableViewController
 
+- (void)reloadData:(UIRefreshControl*)refreshControl {
+    [self fetchData];
+    [refreshControl endRefreshing];
+}
+
+- (void)fetchData {
+    [self fetchItemsWithMethod:@"photos.get" andParameters:@{ @"album_id": @(self.albumId), @"photo_sizes": @1 }];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self fetchItemsWithMethod:@"photos.get" andParameters:@{ @"album_id": @(self.albumId), @"photo_sizes": @1 }];
+    [self.refreshControl addTarget:self action:@selector(reloadData:) forControlEvents:UIControlEventValueChanged];
+    [self fetchData];
 }
 
 #pragma mark - Table view data source

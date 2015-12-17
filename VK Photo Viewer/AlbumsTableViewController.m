@@ -22,11 +22,21 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+- (void)reloadData:(UIRefreshControl*)refreshControl {
+    [self fetchData];
+    [refreshControl endRefreshing];
+}
+
+- (void)fetchData {
+    [self fetchItemsWithMethod:@"photos.getAlbums" andParameters:@{ @"need_covers": @1, @"photo_sizes": @1 }];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     [self.navigationItem setHidesBackButton:YES];
-    [self fetchItemsWithMethod:@"photos.getAlbums" andParameters:@{ @"need_covers": @1, @"photo_sizes": @1 }];
+    [self.refreshControl addTarget:self action:@selector(reloadData:) forControlEvents:UIControlEventValueChanged];
+    [self fetchData];
 }
 
 #pragma mark - Table view data source
